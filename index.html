@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game - Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="wrapper flex justify-evenly items-center flex-col w-full h-screen px-20 bg-black" style="background-image: url('./images/bg-image.jpg'); background-repeat:repeat;">
+   
+        <div class="game-info text-black font-semibold text-2xl bg-white opacity-50 py-2 px-4 rounded-md">
+            Current Player - X 
+        </div>
+        <div class="grid-box w-[300px] h-[300px] grid grid-cols-3 place-items-center text-white">
+            <div class="box flex justify-center items-center text-3xl border-r-4 border-b-4 border-white">
+            </div>
+            <div class="box flex justify-center items-center text-3xl border-r-4 border-b-4 border-white"> 
+                
+            </div>
+            <div class="box flex justify-center items-center text-3xl border-b-4 border-white"> 
+                
+            </div>
+            <div class="box flex justify-center items-center text-3xl border-r-4 border-b-4 border-white"> 
+                
+            </div>
+            <div class="box flex justify-center items-center text-3xl border-r-4 border-b-4 border-white"> 
+                
+            </div>
+            <div class="box flex justify-center items-center text-3xl border-b-4 border-white"> 
+                
+            </div>
+            <div class="box flex justify-center items-center text-3xl border-r-4 border-white"> 
+                
+            </div> 
+            <div class="box flex justify-center items-center text-3xl border-r-4 border-white"> 
+                
+            </div>
+            <div class="box flex justify-center items-center text-3xl"> 
+                
+            </div>
+        </div>
+        <div class="new-game text-black font-semibold text-xl bg-white opacity-50 py-2 px-4 rounded-md cursor-pointer hidden">
+            New Game
+        </div>
+    </section>
+
+
+    <section class="popup absolute left-0 top-0 h-[100vh] w-[100vw] bg-white flex justify-evenly items-center flex-col">
+        <div class="p-10 bg-black w-[30%] h-[30%] rounded-md flex justify-evenly items-center flex-col">
+            <h1 class="text-5xl text-white text-center mb-5">Tic Tac Toe</h1>
+            <button id="startGameBtn" class="text-xl bg-white text-black py-2 px-5 rounded-md">Let's start</button>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://kit.fontawesome.com/58a810656e.js"></script>  -->
+    <!-- <script src="https://kit.fontawesome.com/bef12613b3.js" crossorigin="anonymous"></script> -->
+
+
+
+</body>
+</html>
