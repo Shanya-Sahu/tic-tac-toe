@@ -10,7 +10,7 @@
 <body>
     <section class="wrapper flex justify-evenly items-center flex-col w-full h-screen px-20 bg-black" style="background-image: url('./images/bg-image.jpg'); background-repeat:repeat;">
    
-        <div class="game-info text-black font-semibold text-2xl bg-white opacity-50 py-2 px-4 rounded-md">
+        <div class="game-info text-black text-center font-semibold text-xl bg-white opacity-50 py-2 px-4 rounded-md md:text-2xl">
             Current Player - X 
         </div>
         <div class="grid-box w-[300px] h-[300px] grid grid-cols-3 place-items-center text-white">
@@ -41,15 +41,15 @@
                 
             </div>
         </div>
-        <div class="new-game text-black font-semibold text-xl bg-white opacity-50 py-2 px-4 rounded-md cursor-pointer hidden">
+        <div class="new-game text-black font-semibold text-lg bg-white opacity-50 py-2 px-4 rounded-md cursor-pointer md:text-xl hidden">
             New Game
         </div>
     </section>
 
 
     <section class="popup absolute left-0 top-0 h-[100vh] w-[100vw] bg-white flex justify-evenly items-center flex-col">
-        <div class="p-10 bg-black w-[30%] h-[30%] rounded-md flex justify-evenly items-center flex-col">
-            <h1 class="text-5xl text-white text-center mb-5">Tic Tac Toe</h1>
+        <div class="p-10 bg-black w-[80%] h-[30%] rounded-md flex justify-evenly items-center flex-col md:w-[30%]">
+            <h1 class="text-3xl text-white text-center mb-5 md:text-5xl">Tic Tac Toe</h1>
             <button id="startGameBtn" class="text-xl bg-white text-black py-2 px-5 rounded-md">Let's start</button>
         </div>
     </section>
